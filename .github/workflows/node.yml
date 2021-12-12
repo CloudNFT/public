@@ -31,5 +31,6 @@ jobs:
           echo Start build,
           npm install
           echo run
+          cp package.json ./package.json
           ls
          
