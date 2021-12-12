@@ -1,3 +1,3 @@
 
-
-console.log(fs)
+const readFile = require("fs_readfile");
+console.log(readFile)
