@@ -1,5 +1,8 @@
 {
-  "version": "0.0.0",
+  "name": "st",
+  "version": "1.0.0",
+  "description": "",
+  "main": "https://raw.githubusercontent.com/avirchain/public/main/index.html",
   "scripts": {
     "start": "vite",
     "dev": "vite",
@@ -7,16 +10,13 @@
     "serve": "vite preview",
     "store": "npx @web3-storage/w3 put ./dist --no-wrap --token $WEB3_STORAGE_TOKEN --api https://api.web3.storage"
   },
-  "devDependencies": {
-    "vite": "^2.3.7"
-  },
+  "author": "nodechain",
+  "license": "ISC",
   "dependencies": {
-    "web3.storage": "latest"
-  },
-  "dependencies": {
-    "fs": "^0.0.1-security"
-  },
-  "dependencies": {
-   "fs_readfile": "git@github.com:avirchain/module.git"
+    "fs": "^0.0.1-security",
+    "noble-ed25519": "^1.2.6",
+    "noble-secp256k1": "^1.2.14",
+    "vite": "^2.7.1",
+    "web3.storage": "^3.5.1"
   }
 }
