@@ -12,5 +12,8 @@
   },
   "dependencies": {
     "web3.storage": "latest"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
   }
 }
