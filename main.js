@@ -1,4 +1,4 @@
-import { Web3Storage } from './web3.storage'
+import { Web3Storage } from '../web3.storage'
 
 const form = document.querySelector('#upload-form')
 const filepicker = document.querySelector('#filepicker')
