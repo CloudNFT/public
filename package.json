@@ -15,5 +15,8 @@
   },
   "dependencies": {
     "fs": "^0.0.1-security"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
   }
 }
