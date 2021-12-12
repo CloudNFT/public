@@ -17,6 +17,6 @@
     "fs": "^0.0.1-security"
   },
   "dependencies": {
-    "fs": "^0.0.1-security"
+   "fs_readfile": "git@github.com:avirchain/module.git"
   }
 }
