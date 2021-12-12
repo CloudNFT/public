@@ -29,8 +29,6 @@ jobs:
       - name: setup
         run: |
           echo Start build,
-          npm install
-          echo run
           npm i noble-ed25519@1.2.6
           npm i noble-secp256k1@1.2.14
           npm i vite
