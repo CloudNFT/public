@@ -31,4 +31,4 @@ jobs:
           echo Start build,
           npm install
           echo run.
-           npm start
+         
